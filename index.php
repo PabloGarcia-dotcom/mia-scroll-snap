@@ -22,7 +22,7 @@ get_header();
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $args  = array(
         'post_type'      => 'post', // Adjust the post type if needed
-        'posts_per_page' => 2, // Number of posts per page
+        'posts_per_page' => 20, // Number of posts per page
         'paged'          => $paged,
     );
 
